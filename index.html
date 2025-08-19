@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passphrase Generator Indonesia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Passphrase Generator</h1>
+
+    <label for="jumlah">Jumlah kata:</label>
+    <select id="jumlah">
+      <option value="3">3</option>
+      <option value="4" selected>4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+    </select>
+
+    <div class="buttons">
+      <button onclick="generate()">Buat Passphrase</button>
+      <button onclick="copyPassphrase()">Salin</button>
+    </div>
+
+    <p id="result">Klik tombol untuk membuat passphrase</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+    </html>
